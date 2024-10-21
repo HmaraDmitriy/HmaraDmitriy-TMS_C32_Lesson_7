@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
 
         Figure[] figures = new Figure[] {
-                new Triangle(12, 5, 7),
+                new Triangle(3, 4, 5),
                 new Rectangle(17, 10),
                 new Rectangle(2, 3),
                 new Circle(9),

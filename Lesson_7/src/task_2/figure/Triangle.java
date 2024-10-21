@@ -15,7 +15,8 @@ public class Triangle extends Figure {
 
     @Override
     public double getArea() {
-        return a*b*c;
+        double p = (a + b + c) / 2;
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 
     @Override
